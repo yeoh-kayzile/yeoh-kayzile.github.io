@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    background-image: url("pic/background.gif");
+}
+
+header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url("pic/javajamlogo.jpg");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    width: 200px;
+    float: left;
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FEF6C2;
+
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic, ;
+    padding-bottom: 10px;
+    border-top: #221811 solid 2px;
+    display: block;
+}
+
+.wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 2px 2px #888888;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #221811;
+    clear: left;
+}
+
+main {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 2em;
+    padding-top: 0;
+    margin-left: 200px;
+    display: block;
+    background-color: #FEF6C2;
+    display: block;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#heroroads {
+    background-image: url(pic/heroroad.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heromug {
+    background-image: url(pic/heromugs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url(pic/heroguitar.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#herojobs {
+    background-image: url(pic/herojobs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+
+}
+
+main h2,
+main h3,
+main h4,
+main div,
+main p,
+main ul,
+main dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+header,
+main,
+footer,
+nav {
+    display: block;
+}
+
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    background-color: #ffFFCC;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
+
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
+@media screen and (max-device-width: 640px) {
+    #herojobs {
+        display: none;
+    }
+}
